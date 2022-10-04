@@ -134,6 +134,14 @@ div#rank {
     text-align: center;
     
 }
+#rank > img {
+    width: 23%;
+    
+}
+#rank > p {
+    text-align: center;
+
+}
 
 footer#rodape {
     background-color: rgb(72, 255, 0);

@@ -67,9 +67,9 @@ div#txt {
     
 }
 header {
-    background-color: aqua;
+    background-color: #4d5f69;
     margin: 0px;
-    padding: 70px;
+    padding: 50px;
     text-align: center;
 
 }
@@ -80,15 +80,20 @@ header > h1 {
 }
 
 nav#menu {
-    background-color: rgb(156, 154, 154);
-    padding: 10px;
+    background-color: green;
+    display: block;
+    padding: 5px;
+    width: 600px;
+    font-size: 15px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.247);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
  
 nav#menu > a {
-    color: rgb(241, 8, 58);
+    color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 9px;
     text-decoration: none;
@@ -98,15 +103,15 @@ nav#menu > a {
 }
     
 nav#menu > a:hover {
-    display: inline-block;
+    display: inline-table;
     background-color: rgba(39, 202, 202, 0.644);
     color: rgb(255, 14, 14);
 }
 
 main#principal {
-    background-color: brown;
+    background-color: #d8711d;
     height: 300px;
-    width: 60%;
+    width: 75%;
     float: left;
 }
 
@@ -120,13 +125,14 @@ main#principal {
 div#rank {
     background-color: yellow;
     height: 300px;
-    width: 40%;
-    float: right;
+    width: 25%;
+    float: left;
 }
-#rank > p {
-    font-family: var(--fonte-destaque);
-    padding: 40%;
+#rank > h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     text-align: center;
+    
 }
 
 footer#rodape {

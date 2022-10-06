@@ -51,13 +51,14 @@ body {
     width: 280px;
 }
 
-div#txt {
-    background-color: rgba(128, 128, 128, 0.514);
-    margin: 0px;
-    padding: 6px;
-    border: 0px;
-    text-align: right;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315) inset;
+div#txt > a {
+    float: right;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.6s;
 }
 #logo {
     position: absolute;
@@ -115,11 +116,20 @@ main#principal {
     float: left;
 }
 
-#principal > p {
-    font-family: var(--fonte-destaque);
-    padding: 30%;
-    text-align: center;
+#mensagem {
+    background-color: black;
+}
 
+#mensagem > textarea {
+    position: relative;
+    background-position: center ;
+    padding: 70px 100px;
+}
+#mensagem > button {
+    display: block;
+    position: relative;
+    background-position: left;
+    
 }
 
 div#rank {

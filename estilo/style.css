@@ -110,7 +110,7 @@ nav#menu > a:hover {
 
 main#principal {
     background-color: #d8711d;
-    height: 500px;
+    height: 1200px;
     width: 75%;
     float: left;
 }
@@ -124,7 +124,7 @@ main#principal {
 
 div#rank {
     background-color: yellow;
-    height: 500px;
+    height: 1200px;
     width: 25%;
     float: left;
 }

@@ -82,10 +82,11 @@ header > h1 {
 
 nav#menu {
     background-color: green;
-    display: block;
+    float: left;
     padding: 5px;
-    width: 600px;
-    font-size: 15px;
+    height: 1200px;
+    width: 15%;
+    font-size: 13px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.247);
     text-align: center;
     margin-left: auto;
@@ -94,6 +95,9 @@ nav#menu {
 }
  
 nav#menu > a {
+    display: -webkit-inline-flex;
+    position: relative;
+
     color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 9px;
@@ -102,17 +106,18 @@ nav#menu > a {
     transition-duration: 0.6s;
 
 }
-    
+
+
 nav#menu > a:hover {
-    display: inline-table;
     background-color: rgba(39, 202, 202, 0.644);
     color: rgb(255, 14, 14);
+
 }
 
 main#principal {
     background-color: #d8711d;
     height: 1200px;
-    width: 75%;
+    width: 60%;
     float: left;
 }
 
@@ -140,17 +145,15 @@ div#rank {
 }
 #rank > h5 {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
     font-size: 15px;
     text-align: center;
+    text-justify: auto;
     
 }
-#rank > img {
-    width: 23%;
+#participantes > img {
+    width: 40px;
     
-}
-#rank > p {
-    text-align: center;
-
 }
 
 footer#rodape {

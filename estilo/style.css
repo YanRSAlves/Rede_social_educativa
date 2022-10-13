@@ -79,7 +79,7 @@ header > h1 {
     font-family: var(--fonte-dois);
     font-size: 40px;
 }
-
+    /*Periodos*/
 nav#menu {
     background-color: green;
     float: left;
@@ -151,8 +151,11 @@ div#rank {
     text-justify: auto;
     
 }
-#participantes > img {
-    width: 40px;
+#perfil > img {
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
     
 }
 

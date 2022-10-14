@@ -81,7 +81,7 @@ header > h1 {
 }
     /*Periodos*/
 nav#menu {
-    background-color: green;
+    background-color: rgb(78, 123, 168);
     float: left;
     padding: 5px;
     height: 1200px;
@@ -115,7 +115,8 @@ nav#menu > a:hover {
 }
 
 main#principal {
-    background-color: #d8711d;
+    /*background-color: #d8711d;*/
+    background-color: rgb(78, 168, 147);
     height: 1200px;
     width: 60%;
     float: left;
@@ -138,7 +139,8 @@ main#principal {
 }
 
 div#rank {
-    background-color: yellow;
+    /*background-color: yellow;*/
+    background-color: rgb(78, 123, 168);
     height: 1200px;
     width: 25%;
     float: left;

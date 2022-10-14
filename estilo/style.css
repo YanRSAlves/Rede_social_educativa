@@ -151,11 +151,18 @@ div#rank {
     text-justify: auto;
     
 }
-#perfil > img {
-    margin-left: 50px;
-    margin-top: 20px;
-    height: 70px;
-    width: 70px;
+#perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+#perfil > p > img {
+    width: 40px;   
+    height: 40px;
     
 }
 
